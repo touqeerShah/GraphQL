@@ -47,6 +47,13 @@ npm run dev
 http://localhost:8080/graphql
 ```
 
+Run MongoDB with Docker
+
+```
+cd mongo-compose
+docker-compose up -d
+```
+
 Run Query Example from `query.graphql`
 
 ## Add VS-code Extention
