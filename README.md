@@ -1,4 +1,4 @@
-# Minting ERC1155 NFT and Farming
+# GraphQL Server
 
 In this repo we create simple code for graphQL and nodejs with GrapheQl so we can make our code more clear.
 
