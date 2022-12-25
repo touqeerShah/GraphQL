@@ -1,0 +1,40 @@
+mutation {
+  createProduct(
+    input: {
+      name: "productb"
+      price: 112
+      isSold: false
+      stories: [{ name: "asasa" }]
+    }
+  ) {
+    id
+    name
+    price
+  }
+}
+query {
+  getProduct(id: "63a85599d20b29774516f1e2") {
+    name
+    price
+    stories {
+      name
+    }
+  }
+}
+mutation {
+  updateProduct(input: { id: "63a85602d20b29774516f1e6", price: 0.8 }) {
+    id
+    name
+    price
+  }
+}
+
+query {
+  getAllProduct {
+    name
+    price
+    stories {
+      name
+    }
+  }
+}
